@@ -27,6 +27,8 @@ export const RegisterPage = () => {
     displayName: '',
   }, formValidations)  
 
+  
+
   const isChecking = useMemo( ()=> status === 'checking', [status] )
 
   const onSubmit = (e) => {
